@@ -1,4 +1,6 @@
 # Simple makefile to build the kernel
+#
+# Build runs on codeship
 
 all: kernel bootstrap_assembly linker os
 
